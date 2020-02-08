@@ -1,6 +1,6 @@
-workspace "CWStarter"
+workspace "spriteExample"
 	architecture "x64"
-	startproject "CWStarter"
+	startproject "spriteExample"
 
 	configurations
 	{
@@ -8,7 +8,7 @@ workspace "CWStarter"
 		"Release"
 	}
 
-project "CWStarter"
+project "spriteExample"
 	location "%{prj.name}"
 	kind "ConsoleApp"
 	language "C++"
